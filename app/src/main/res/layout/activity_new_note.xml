@@ -18,13 +18,13 @@
             android:backgroundTint="@color/noteYellow"
             android:theme="@style/AppTheme.AppBarOverlay">
 
-            <TextView
+            <EditText
                 android:text="Title"
                 android:textColor="@color/black"
                 android:textSize="48dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView" />
+                android:id="@+id/titleText" />
 
             <TextView
                 android:text="DateTime"
@@ -33,16 +33,13 @@
                 android:gravity="right"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView2" />
+                android:id="@+id/dateTime" />
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/editText2" />
+                android:id="@+id/noteContent" />
         </android.support.design.widget.AppBarLayout>
-
-
     </FrameLayout>
-
 </android.support.design.widget.CoordinatorLayout>

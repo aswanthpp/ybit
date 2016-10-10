@@ -13,11 +13,10 @@
     <include layout="@layout/activity_all_notes"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:layout_below="@+id/button1"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-    </include>
+        android:layout_alignParentStart="true"/>
 
     <Button
         android:text="new"
